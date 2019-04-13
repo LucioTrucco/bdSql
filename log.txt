@@ -1,0 +1,84 @@
+2019-04-13 12:31:16.013 11613-11613/? I/Zygote: seccomp disabled by setenforce 0
+2019-04-13 12:31:16.014 11613-11613/? I/le.linearlayou: Late-enabling -Xcheck:jni
+2019-04-13 12:31:16.034 11613-11613/? W/le.linearlayou: Unexpected CPU variant for X86 using defaults: x86
+2019-04-13 12:31:16.056 11613-11618/? E/le.linearlayou: Failed to send DDMS packet REAQ to debugger (-1 of 20): Broken pipe
+2019-04-13 12:31:16.102 11613-11613/? W/le.linearlayou: JIT profile information will not be recorded: profile file does not exits.
+2019-04-13 12:31:16.103 11613-11613/? I/chatty: uid=10088(com.example.linearlayout) identical 5 lines
+2019-04-13 12:31:16.103 11613-11613/? W/le.linearlayou: JIT profile information will not be recorded: profile file does not exits.
+2019-04-13 12:31:16.117 11613-11613/? I/com.example.linearlayout: type=1400 audit(0.0:1937): avc: denied { connectto } for comm=45474C20496E6974 path="/dev/socket/property_service" scontext=u:r:untrusted_app:s0:c88,c256,c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1
+2019-04-13 12:31:16.103 11613-11613/? W/le.linearlayou: JIT profile information will not be recorded: profile file does not exits.
+2019-04-13 12:31:16.104 11613-11613/? I/chatty: uid=10088(com.example.linearlayout) identical 3 lines
+2019-04-13 12:31:16.104 11613-11613/? W/le.linearlayou: JIT profile information will not be recorded: profile file does not exits.
+2019-04-13 12:31:16.113 11613-11613/? I/InstantRun: starting instant run server: is main process
+2019-04-13 12:31:16.120 11613-11631/? D/libEGL: Emulator has host GPU support, qemu.gles is set to 1.
+2019-04-13 12:31:16.121 11613-11631/? D/vndksupport: Loading /vendor/lib/egl/libGLES_emulation.so from current namespace instead of sphal namespace.
+2019-04-13 12:31:16.124 11613-11631/? E/libEGL: load_driver(/vendor/lib/egl/libGLES_emulation.so): dlopen failed: library "/vendor/lib/egl/libGLES_emulation.so" not found
+2019-04-13 12:31:16.124 11613-11631/? D/vndksupport: Loading /vendor/lib/egl/libEGL_emulation.so from current namespace instead of sphal namespace.
+2019-04-13 12:31:16.134 11613-11631/? D/libEGL: loaded /vendor/lib/egl/libEGL_emulation.so
+2019-04-13 12:31:16.135 11613-11631/? D/vndksupport: Loading /vendor/lib/egl/libGLESv1_CM_emulation.so from current namespace instead of sphal namespace.
+2019-04-13 12:31:16.142 11613-11631/? D/libEGL: loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+2019-04-13 12:31:16.147 11613-11631/? D/vndksupport: Loading /vendor/lib/egl/libGLESv2_emulation.so from current namespace instead of sphal namespace.
+2019-04-13 12:31:16.152 11613-11631/? D/libEGL: loaded /vendor/lib/egl/libGLESv2_emulation.so
+2019-04-13 12:31:16.231 11613-11613/? W/le.linearlayou: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+2019-04-13 12:31:16.231 11613-11613/? W/le.linearlayou: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2019-04-13 12:31:16.290 11613-11613/? D/OpenGLRenderer: Skia GL Pipeline
+2019-04-13 12:31:16.380 11613-11633/? I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2019-04-13 12:31:16.381 11613-11633/? I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2019-04-13 12:31:16.381 11613-11633/? I/OpenGLRenderer: Initialized EGL, version 1.4
+2019-04-13 12:31:16.381 11613-11633/? D/OpenGLRenderer: Swap behavior 1
+2019-04-13 12:31:16.389 11613-11633/? D/EGL_emulation: eglCreateContext: 0xe114b720: maj 2 min 0 rcv 2
+2019-04-13 12:31:17.004 11613-11633/? D/vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+2019-04-13 12:31:17.004 11613-11633/? D/vndksupport: Loading /vendor/lib/hw/gralloc.vbox86.so from current namespace instead of sphal namespace.
+2019-04-13 12:31:17.008 11613-11633/? E/EGL_emulation: tid 11633: eglSurfaceAttrib(1354): error 0x3009 (EGL_BAD_MATCH)
+2019-04-13 12:31:17.008 11613-11633/? W/OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0xe114b660, error=EGL_BAD_MATCH
+2019-04-13 12:31:17.083 11613-11633/com.example.linearlayout I/OpenGLRenderer: Davey! duration=746ms; Flags=0, IntendedVsync=148506325482232, Vsync=148506358815564, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=148506368747542, AnimationStart=148506368771567, PerformTraversalsStart=148506368926336, DrawStart=148507008372131, SyncQueued=148507011049287, SyncStart=148507021846190, IssueDrawCommandsStart=148507021885022, SwapBuffers=148507050443120, FrameCompleted=148507083187506, DequeueBufferDuration=88000, QueueBufferDuration=157000, 
+2019-04-13 12:31:17.088 11613-11613/com.example.linearlayout I/Choreographer: Skipped 42 frames!  The application may be doing too much work on its main thread.
+2019-04-13 12:31:17.161 11613-11633/com.example.linearlayout I/OpenGLRenderer: Davey! duration=784ms; Flags=0, IntendedVsync=148506376029055, Vsync=148507076029027, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=148507088925665, AnimationStart=148507088949411, PerformTraversalsStart=148507089219557, DrawStart=148507089471265, SyncQueued=148507090055138, SyncStart=148507090093691, IssueDrawCommandsStart=148507090126935, SwapBuffers=148507090284497, FrameCompleted=148507160973649, DequeueBufferDuration=88000, QueueBufferDuration=184000, 
+2019-04-13 12:31:17.895 11613-11613/com.example.linearlayout W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@92f33a1
+2019-04-13 12:31:17.976 11613-11633/com.example.linearlayout E/EGL_emulation: tid 11633: eglSurfaceAttrib(1354): error 0x3009 (EGL_BAD_MATCH)
+2019-04-13 12:31:17.976 11613-11633/com.example.linearlayout W/OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0xe114c860, error=EGL_BAD_MATCH
+2019-04-13 12:31:18.650 11613-11613/com.example.linearlayout D/AndroidRuntime: Shutting down VM
+2019-04-13 12:31:18.651 11613-11613/com.example.linearlayout E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.example.linearlayout, PID: 11613
+    java.lang.IllegalStateException: Could not execute method for android:onClick
+        at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:390)
+        at android.view.View.performClick(View.java:6597)
+        at android.view.View.performClickInternal(View.java:6574)
+        at android.view.View.access$3100(View.java:778)
+        at android.view.View$PerformClick.run(View.java:25885)
+        at android.os.Handler.handleCallback(Handler.java:873)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:193)
+        at android.app.ActivityThread.main(ActivityThread.java:6680)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+     Caused by: java.lang.reflect.InvocationTargetException
+        at java.lang.reflect.Method.invoke(Native Method)
+        at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:385)
+        at android.view.View.performClick(View.java:6597) 
+        at android.view.View.performClickInternal(View.java:6574) 
+        at android.view.View.access$3100(View.java:778) 
+        at android.view.View$PerformClick.run(View.java:25885) 
+        at android.os.Handler.handleCallback(Handler.java:873) 
+        at android.os.Handler.dispatchMessage(Handler.java:99) 
+        at android.os.Looper.loop(Looper.java:193) 
+        at android.app.ActivityThread.main(ActivityThread.java:6680) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
+     Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.text.Editable android.widget.EditText.getText()' on a null object reference
+        at com.example.linearlayout.activityRegistro.altaUser(activityRegistro.java:36)
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:385) 
+        at android.view.View.performClick(View.java:6597) 
+        at android.view.View.performClickInternal(View.java:6574) 
+        at android.view.View.access$3100(View.java:778) 
+        at android.view.View$PerformClick.run(View.java:25885) 
+        at android.os.Handler.handleCallback(Handler.java:873) 
+        at android.os.Handler.dispatchMessage(Handler.java:99) 
+        at android.os.Looper.loop(Looper.java:193) 
+        at android.app.ActivityThread.main(ActivityThread.java:6680) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858) 
