@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">linearLayout</string>
+    <string name="mail">Correo electronico</string>
+    <string name="pw">Password</string>
+    <string name="boton">Ingresar</string>
+    <string name="nuevoUsuario">Registrarse</string>
+    <string name="repetirPw">Repita su contraseña</string>
+</resources>
